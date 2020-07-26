@@ -1,0 +1,48 @@
+body{
+  font-family="Arial"
+  font-size: 2px
+  text-align=center
+}
+
+ul{
+  list-style: none
+}
+
+ul li:hover{
+  background-color: white;
+}
+
+img:hover{
+  transform: scale(1.15)
+}
+
+.cardposition{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px grey;
+  width: 300px;
+  padding: 20px;
+  margin: 35px;
+}
+
+.listalign{
+  align: left;
+  margin-left:1;
+  padding: 0;
+}
+
+.infobox{
+  border: 1px solid;
+  padding: 10px;
+  margin:0px;
+  background-image: linear-gradient(to right, rgba(243, 230, 216,0), rgba(243, 230, 216,1));
+}
+
+.lowerspacing{
+  margin-bottom: 10px;
+}
